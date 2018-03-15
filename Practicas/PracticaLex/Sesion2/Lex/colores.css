@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+	min-width: 100%;
+	min-height: 100%;
+	background-color: #272727; /* Gris muy obscuro */
+	font-family: monospace!important; /* Monospace por legibilidad, !important para que no sea cambiado por otra regla*/
+	font-size: 16px;
+}
+
+span {
+	display: inline-block;
+	max-width: 90%;
+}
+
+.comentario {
+	/* Gris obscuro */
+	font-style: italic;
+	color: #666666;
+}
+.numero, .tipodedato {
+	/*
+		Tipo de dato es rojo ya que este son solamente letras
+		Por otro lado, también selecciona a los numéricos
+	*/
+	color: #FF3B3B;
+}
+.cadena {
+	/* Amarillo pato*/
+	color: #FFFB91;
+}
+.include {
+	/* Gris claro */
+	color: #999999;
+}
+.includecustom {
+	/* Para las librerias custom */
+	color: #FFFB91;
+}
+.reservada {
+	/* Verde lima o algo asi */
+	/* Rosa */
+	color: #FF63FC;
+}
+
+.variable {
+	/* Verde esmeralda */
+	color: #4FFFB6;
+}
+
+.funcion {
+	
+	/* Rosa */
+	color: #FFD9FE;
+	/*color: blue;*/
+}
+.operador {
+	/* Como morado */
+	color: #C073FF;
+}
+.separador {
+	/* Cafe */
+	color: #87662D;
+}
+
+.numerodelinea {
+	display: inline-block;
+	width: 48px;
+	margin-right: 16px;
+	text-align: right;
+	float: left;
+	color: #444444;
+}
+
+::selection {
+	background-color: #272727;
+	color: #f7f7f7;
+}

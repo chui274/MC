@@ -1,0 +1,27 @@
+/*
+ Copyright (C) Sofía Fernández Moreno
+ Asignatura: Modelos de Computación
+ Curso: 2015/2016
+ */
+/********************************************/
+		COMPILACIÓN DE CÓDIGO
+/*********************************************/
+
+
+lex traductor.l
+
+lex traductor.l
+
+gcc -o salida lex.yy.c -ll
+
+./salida “argumento”
+
+
+
+
+El código que se lee está en el archivo que le pasemos 
+El archivo de salida se crea al ejecutar ./salida
+El archivo de salida es fichero.html
+
+/*********************************************/
+Si queremos cambiar el formato del fichero html, debemos cambiar dentro del fichero html.h el apartado de declaración del fichero .css, teniendo la posibilidad(podría ser cualquiera, pero solo he realizado cuatro opciones) de ver el fichero html con formato. Si no añadimos un formato de tipo CSS nuestro fichero será tal cual como texto plano.
